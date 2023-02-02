@@ -20,7 +20,9 @@
 				"punctuation.separator.scope-resolution.cpp",
 				"punctuation.separator.colon.access.control.cpp",
 				"punctuation.separator.delimiter.comma.cpp",
-				"punctuation.separator.dot-access.cpp"
+				"punctuation.separator.dot-access.cpp",
+				"storage.modifier.pointer.cpp",
+				"storage.modifier.reference.cpp"
 			],
 			"settings": {
 				"foreground": "#ffffffcb"
@@ -134,22 +136,12 @@
 				"punctuation.separator.parameters.python",
 				"punctuation.separator.period.python",
 				"punctuation.separator.colon.python",
-				"punctuation.separator.annotation.python"
+				"punctuation.separator.annotation.python",
+				"punctuation.separator.arguments.python",
+				"punctuation.section.class.begin.python"
 			],
 			"settings": {
 				"foreground": "#ffffffcb"
-			}
-		},
-		{
-			"name" : "Cpp Preprocessor",
-			"scope" : [
-				"keyword.control.directive.define.cpp",
-				"keyword.control.directive.include.cpp",
-				"variable.other.macro.argument.cpp",
-				"punctuation.section.parens.control.defined.cpp"
-			],
-			"settings": {
-				"foreground": "#9B9B9B",
 			}
 		},
 		{
@@ -209,7 +201,9 @@
 			"name": "Python Varibles",
 			"scope": [
 				"variable.parameter.function.language.python",
-				"source.python"
+				"source.python",
+				"meta.function-call.arguments.python",
+				"meta.attribute.python"
 			],
 			"settings": {
 				"foreground": "#F5D378"
