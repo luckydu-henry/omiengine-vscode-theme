@@ -1,0 +1,228 @@
+{
+	"name": "Henry Du",
+	"include" : "./dark_vs.json",
+	// "semanticTokenColors": {
+	// 	"newOperator":"#C586C0",
+	// 	"stringLiteral":"#ce9178",
+	// 	"customLiteral": "#D18385",
+	// 	"numberLiteral": "#D18385",
+	// 	"variable": "#F5D378",
+	// 	"macro": "#9B91FF",
+	// 	"namespace": "#FF9B6A"
+	// },
+	"tokenColors": [
+		{
+			// Cpp configuration.
+			"name" : "Cpp Meta Symbol",
+			"scope" : [
+				"punctuation.terminator.statement.cpp",
+				"punctuation.separator.scope-resolution.namespace.using.cpp",
+				"punctuation.separator.scope-resolution.cpp",
+				"punctuation.separator.colon.access.control.cpp",
+				"punctuation.separator.delimiter.comma.cpp",
+				"punctuation.separator.dot-access.cpp"
+			],
+			"settings": {
+				"foreground": "#ffffffcb"
+			}
+		},
+		{
+			"name" : "Cpp Preprocessor",
+			"scope" : [
+				"keyword.control.directive.define.cpp",
+				"keyword.control.directive.include.cpp",
+				"variable.other.macro.argument.cpp",
+				"punctuation.section.parens.control.defined.cpp"
+			],
+			"settings": {
+				"foreground": "#9B9B9B",
+			}
+		},
+		{
+			"name" : "Cpp Macros",
+			"scope" : [
+				"entity.name.function.preprocessor.cpp"
+			],
+			"settings": {
+				"foreground": "#9B91FF",
+		    }
+	    },
+		{
+			"name" : "Cpp Constants",
+			"scope" : [
+				"constant.numeric.decimal.cpp"
+			],
+			"settings": {
+				"foreground": "#D18385",
+			}
+		},
+		{
+			"name" : "Cpp String Handle",
+			"scope" : [
+				"constant.other.placeholder",
+				"constant.character.escape.cpp"
+			],
+			"settings": {
+				"foreground": "#ffbe5d",
+		    }
+		},
+		{
+			"name": "Cpp Functions",
+			"scope": [
+				"entity.name.function.definition.cpp",
+				"entity.name.function.member.cpp",
+				"entity.name.function.call.cpp"
+			],
+			"settings": {
+				"foreground": "#FB4871"
+			}
+		},
+		{
+			"name" : "Cpp Namespaces",
+			"scope" : [
+				"entity.name.namespace.cpp",
+				"entity.name.scope-resolution.cpp",
+				"entity.name.scope-resolution.namespace.using.cpp"
+			],
+			"settings" : {
+				"foreground": "#FF9B6A",
+				"fontStyle": "bold"
+			}
+		},
+
+		{
+			"name" : "Cpp Types",
+			"scope" : [
+				"entity.name.type.class.cpp",
+				"entity.name.type.struct.cpp",
+				"entity.name.type.enum.cpp",
+				"entity.name.type.template.cpp",
+				"entity.name.type.cpp"
+			],
+			"settings" : {
+				"foreground": "#F8656D"
+			}
+		},
+
+		{
+			"name": "Cpp Varibles",
+			"scope": [
+				"variable.parameter.cpp",
+				"meta.body.function.definition.cpp",
+				"meta.body.class.cpp",
+				"variable.cpp"
+			],
+			"settings": {
+				"foreground": "#F5D378"
+			}
+		},
+		{
+			"name": "Cpp Enum",
+			"scope": [
+				"variable.other.enummember.cpp"
+			],
+			"settings": {
+				"foreground": "#A5CC8A"
+			}
+		},
+		// Python configuration.
+		{
+			"name" : "Python Meta Symbol",
+			"scope" : [
+				"punctuation.section.function.begin.python",
+				"punctuation.separator.annotation.result.python",
+				"punctuation.separator.parameters.python",
+				"punctuation.separator.period.python",
+				"punctuation.separator.colon.python",
+				"punctuation.separator.annotation.python"
+			],
+			"settings": {
+				"foreground": "#ffffffcb"
+			}
+		},
+		{
+			"name" : "Cpp Preprocessor",
+			"scope" : [
+				"keyword.control.directive.define.cpp",
+				"keyword.control.directive.include.cpp",
+				"variable.other.macro.argument.cpp",
+				"punctuation.section.parens.control.defined.cpp"
+			],
+			"settings": {
+				"foreground": "#9B9B9B",
+			}
+		},
+		{
+			"name" : "Python String Handle",
+			"scope" : [
+				"constant.character.format.placeholder.other.python",
+				"constant.character.escape.python"
+			],
+			"settings": {
+				"foreground": "#ffbe5d",
+		    }
+	    },
+		{
+			"name" : "Python Constants",
+			"scope" : [
+				"constant.numeric.dec.python"
+			],
+			"settings": {
+				"foreground": "#D18385",
+			}
+		},
+
+
+		{
+			"name": "Python Functions",
+			"scope": [
+				"entity.name.function.python",
+				"support.function.builtin.python",
+				"support.function.magic.python",
+				"meta.function-call.generic.python",
+				"meta.function-call.python"
+			],
+			"settings": {
+				"foreground": "#FB4871"
+			}
+		},
+		{
+			"name" : "Python Builtintype",
+			"scope" : [
+				"support.type.python"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"name" : "Python Class",
+			"scope" : [
+				"entity.name.type.class.python",
+			],
+			"settings" : {
+				"foreground": "#F8656D"
+			}
+		},
+
+		{
+			"name": "Python Varibles",
+			"scope": [
+				"variable.parameter.function.language.python",
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#F5D378"
+			}
+		},
+		{
+			"name": "Cpp Enum",
+			"scope": [
+				"variable.other.enummember.cpp"
+			],
+			"settings": {
+				"foreground": "#A5CC8A"
+			}
+		},
+	]
+}
